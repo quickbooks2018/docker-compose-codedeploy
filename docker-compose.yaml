@@ -4,3 +4,9 @@ services:
       context: .
       dockerfile: Dockerfile
     image: cloudgeeks:latest
+
+  nginx:
+    build:
+      context: .
+      dockerfile: DockerfileNginx
+    image: nginx:latest
