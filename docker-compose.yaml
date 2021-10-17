@@ -9,4 +9,4 @@ services:
     build:
       context: .
       dockerfile: DockerfileNginx
-    image: nginx:latest
+    image: proxy:latest
